@@ -23,3 +23,17 @@ header {
 .container-fluid {
     background-color: aqua;
 }
+.logo-box {
+background-color: blue;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+}
+.logo-box img {
+    width: 130px;
+    height: 30px;
+}
+.navbar {
+    width: 85%;
+    background-color: bisque;
+}
