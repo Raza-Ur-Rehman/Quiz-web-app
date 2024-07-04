@@ -4,56 +4,63 @@
     box-sizing: border-box;
     font-family: 'Helvetica', sans-serif;
 }
+
 body {
     width: 100%;
     height: 100Vh;
+    color: #333333;
 }
+
 .main {
     width: 100%;
     height: 100%;
     background-color: #f7f1e3;
 
 }
+
 header {
     width: 100%;
     height: 10%;
     padding: 10px 30px;
     background-color: aquamarine;
 }
+
 .container-fluid {
     background-color: aqua;
 }
+
 .logo-box {
-background-color: blue;
+    background-color: blue;
     width: 15%;
     display: flex;
     justify-content: center;
 }
+
 .logo-box img {
     width: 130px;
     height: 30px;
 }
+
 .nav-list {
     width: 75%;
     background-color: bisque;
 }
-.nav-list
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.nav-list ul {
+    list-style: none;
+    font-size: 18px;
+    color: #E0E0E0;
+}
+.nav-btn {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+}
+.nav-btn button  {
+    border: 1px solid #fcc822;
+    border-radius: 4px;
+    outline: none;
+    padding: 8px 30px;
+    background-color: transparent;
+    font-size: 18px;
+}
