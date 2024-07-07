@@ -88,13 +88,20 @@ header {
     /* hero section working  */
 
 .hero-sec {
+    height: 90%;
+}
+.title-box {
+    padding: 10px;
+    gap: 40px;
+    line-height: 30px;
+}
+.title h1 {
+    font-size: 60px;
+}
+.discription {
+    
+}
 
-}
-.heroimg {
-    width: 366.66px;
-    height: 371px;
-    border-radius: 52px;
-}
 
 
 
