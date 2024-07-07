@@ -18,9 +18,7 @@ body {
     height: 100%;
 
 }
-
-
-/*      nav bar work  */
+/*      nav-bar work  */
 
 header {
     width: 100%;
@@ -89,6 +87,14 @@ header {
 
     /* hero section working  */
 
+.hero-sec {
+
+}
+.heroimg {
+    width: 366.66px;
+    height: 371px;
+    border-radius: 52px;
+}
 
 
 
@@ -97,5 +103,3 @@ header {
 
 
 
-
-    
