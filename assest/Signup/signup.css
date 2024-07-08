@@ -64,6 +64,8 @@ form input::placeholder {
 }
 .checkbox {
     accent-color: #fcc822 !important;
+    width: 20px !important;
+    height: 20px !important;
 }
 .checkbox:checked {
     background-color:#fcc822 !important;
@@ -71,6 +73,10 @@ form input::placeholder {
 }
 .checkbox:hover {
     color: #fcc822 !important;
+}
+.form-check-label {
+    font-size: 18px !important;
+    margin-left: 6px;
 }
 .signup-btn {
     border: none;
@@ -91,6 +97,7 @@ form input::placeholder {
 }
 .social-login-link {
     font-size: 20px;
+    margin-top: 10px;
 }
 .social-link {
     color: #fcc822;
@@ -108,8 +115,10 @@ form input::placeholder {
 
 
 .signup-side-img {
-    width: 80%;
-    height: 60%;
+    width: 400px;
+    height: 560px;
+    object-fit: contain;
+    margin-left: 30px;
 }
 
 
