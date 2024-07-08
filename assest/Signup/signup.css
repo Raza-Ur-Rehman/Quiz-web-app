@@ -49,6 +49,9 @@ form input::placeholder {
  font-family: "Roboto", Poppins;
  font-weight: 400;
 }
+.form-check {
+    margin-top: 20px;
+}
 .Forget-link {
     color: #333333;
     text-decoration: none;
@@ -69,7 +72,36 @@ form input::placeholder {
 .checkbox:hover {
     color: #fcc822 !important;
 }
+.signup-btn {
+    border: none;
+    outline: none;
+    background: #fcc822;
+    color: #ffffff;
+    width: 60%;
+    height: 50px;
+    /* padding: 10px 30px; */
+    font-size: 24px;
+    /* transition: 0.5 ease-in-out; */
+    border-radius: 4px;
 
+}
+.signup-btn:hover {
+    background: transparent;
+    border: 2px solid #fcc822;
+}
+.social-login-link {
+    font-size: 20px;
+}
+.social-link {
+    color: #fcc822;
+    display: flex;
+    gap: 15px;
+    /* justify-content: center; */
+    align-items: center;
+}
+.social-link i {
+    color: #fcc822;
+}
 
 
 
