@@ -96,7 +96,7 @@ form input::placeholder {
 .signup-btn:hover {
     background: transparent;
     border: 2px solid #fcc822;
-    color: #333333;
+    color: #fcc822;
 }
 .social-login-link {
     font-size: 20px;
