@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
     padding: 0;
@@ -22,7 +23,9 @@
 }
 .input-box {
     border: 1px solid #c1bbbb;
-    padding: 6px;
+    /* padding: 6px 10px 6px 6px; */
+    margin-bottom: 10px;
+    /* border-radius: 4px; */
 }
 .input-box:focus-within {
     border-left: 4px solid #fcc822;
@@ -30,19 +33,21 @@
 }
 form input {
     width: 100%;
-    height: 40px;
+    height: 30px;
     border: none;
     outline: none;
     color: #fcc822;
     background: transparent;
-    font-size: 18px;
+    font-size: 16px;
+    padding: 0;
 }
 form input::placeholder {
     color: #fcc822;
 }
 .input-box span {
- font-size: 20px;
- font-weight: 500;
+ font-size: 18px;
+ font-family: "Roboto", Poppins;
+ font-weight: 400;
 }
 
 
