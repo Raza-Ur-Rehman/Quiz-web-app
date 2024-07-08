@@ -49,7 +49,26 @@ form input::placeholder {
  font-family: "Roboto", Poppins;
  font-weight: 400;
 }
+.Forget-link {
+    color: #333333;
+    text-decoration: none;
+    font-size: 18px;
 
+}
+.Forget-link:hover {
+    color: #fcc822;
+    text-decoration: underline;
+}
+.checkbox {
+    accent-color: #fcc822 !important;
+}
+.checkbox:checked {
+    background-color:#fcc822 !important;
+    border: #fcc822;
+}
+.checkbox:hover {
+    color: #fcc822 !important;
+}
 
 
 
