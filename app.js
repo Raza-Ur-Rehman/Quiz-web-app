@@ -3,7 +3,7 @@
 const login = ()=> {
 
     
-    console.log( window.location.href = 'assest/Signup/signup.html');
+    console.log( window.location.href = 'assest/Login/login.html');
 } 
 
 
