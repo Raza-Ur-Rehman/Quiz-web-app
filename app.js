@@ -1,11 +1,12 @@
 
 
 const login = ()=> {
-    window.location.href = '../Login/login.html'
 
+    
+    console.log( window.location.href = 'assest/Login/login.html');
 } 
 
-
+login();
 
 
 
