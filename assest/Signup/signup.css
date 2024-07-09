@@ -13,18 +13,16 @@
 }
 .main section {
     padding: 10px;
-    height: 80%;
+    height: 90%;
+    border: 1px solid #c1bbbb;
+    
 }
 .main:first-child section {
-    gap: 30px;
-}
-.box {
-    border: 1px solid #c1bbbb;
     border-radius: 10px 0px 0px 10px;
+    gap: 20px;
 }
-.box2 {
-    border: 1px solid #c1bbbb;
-    border-radius: 0px 10px 10px 0px;
+.main:nth-child(2) section {
+    border-radius: 10px 10px 10px 10px;
 }
 .title {
     width: 60%;
