@@ -16,7 +16,7 @@
     height: 80%;
 }
 .main:first-child section {
-    gap: 40px;
+    gap: 30px;
 }
 .box {
     border: 1px solid #c1bbbb;
@@ -108,7 +108,7 @@ form input::placeholder {
 }
 .social-login-link {
     font-size: 20px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
 .social-link {
     color: #fcc822;
@@ -119,6 +119,7 @@ form input::placeholder {
 }
 .social-link i {
     color: #fcc822;
+    font-size: 24px;
 }
 .signup-side-img {
     width: 400px;
