@@ -16,14 +16,14 @@
     height: 80%;
 }
 .main:first-child section {
+    border: 1px solid #c1bbbb;
     gap: 40px;
 }
 .box {
-    border: 1px solid #c1bbbb;
+    background-color: #ffffff;
     border-radius: 10px 0px 0px 10px;
 }
 .box2 {
-    border: 1px solid #c1bbbb;
     border-radius: 0px 10px 10px 0px;
 }
 .title {
@@ -88,7 +88,7 @@ form input::placeholder {
     font-size: 18px !important;
     margin-left: 6px;
 }
-.signup-btn {
+.login-btn {
     border: none;
     outline: none;
     background: #fcc822;
@@ -101,21 +101,39 @@ form input::placeholder {
     border-radius: 4px;
 
 }
-.signup-btn:hover {
+.login-btn:hover {
     background: transparent;
     border: 2px solid #fcc822;
     color: #fcc822;
+}
+.signup-btn {
+    border: 2px solid #fcc822;
+    outline: none;
+    background: transparent;
+    color: #fcc822;
+    width: 40%;
+    height: 50px;
+    font-size: 24px;
+    border-radius: 4px;
+
+}
+.signup-btn:hover {
+    background: #fcc822;
+    border: none;
+    color: #ffffff;
 }
 .social-login-link {
     font-size: 20px;
     margin-top: 10px;
 }
 .social-link {
+    text-decoration: none;
     color: #fcc822;
     display: flex;
     gap: 15px;
     /* justify-content: center; */
     align-items: center;
+    cursor: pointer;
 }
 .social-link i {
     color: #fcc822;
