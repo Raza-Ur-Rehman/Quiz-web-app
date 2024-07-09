@@ -18,6 +18,14 @@
 .main:first-child section {
     gap: 40px;
 }
+.box {
+    border: 1px solid #c1bbbb;
+    border-radius: 10px 0px 0px 10px;
+}
+.box2 {
+    border: 1px solid #c1bbbb;
+    border-radius: 0px 10px 10px 0px;
+}
 .title {
     width: 60%;
 }
@@ -112,16 +120,11 @@ form input::placeholder {
 .social-link i {
     color: #fcc822;
 }
-
-
-
-
-
 .signup-side-img {
     width: 400px;
     height: 560px;
     object-fit: contain;
-    margin-left: 100px;
+    /* margin-left: 100px; */
 }
 
 
