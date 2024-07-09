@@ -63,7 +63,7 @@ input[type="radio"] {
     appearance: none;
     width: 20px;
     height: 20px;
-    border: 1px solid #fff;
+    border: 1px solid #fcc822;
     border-radius: 50%;
     margin-right: 10px;
     background-color: transparent;
@@ -89,11 +89,43 @@ input[type="radio"]:checked::before {
 label {
     font-size: 18px;
     font-weight: 500;
-    color: #fff;
+    color: #333333;
 }
-.form-check {
-    margin-top: 20px;
+.file {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
+  .file > input[type='file'] {
+    display: none;
+  }
+  
+  .file > label {
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    outline: 0;
+    user-select: none;
+    border: 1px solid #c1bbbb;
+    border-radius: 4px;
+    background-color: #ffffff ;
+    color: #333333;
+   padding: 14px;
+  }
+  
+  .file > label:hover {
+    border-color: #fcc822;
+  }
+  
+  .file > label:active {
+    background-color: #fcc822;
+  }
+  
+  .file > label > i {
+    padding-right: 5px;
+    font-size: 22px;
+    color: #fcc822;
+  }
+  
 .Forget-link {
     color: #333333;
     text-decoration: none;
@@ -125,7 +157,7 @@ label {
     outline: none;
     background: #fcc822;
     color: #ffffff;
-    width: 60%;
+    width: 40%;
     height: 50px;
     /* padding: 10px 30px; */
     font-size: 24px;
@@ -137,6 +169,22 @@ label {
     background: transparent;
     border: 2px solid #fcc822;
     color: #fcc822;
+}
+.login-btn {
+    border: 2px solid #fcc822;
+    outline: none;
+    background: transparent;
+    color: #fcc822;
+    width: 40%;
+    height: 50px;
+    font-size: 24px;
+    border-radius: 4px;
+
+}
+.login-btn:hover {
+    background: #fcc822;
+    border: none;
+    color: #ffffff;
 }
 .social-login-link {
     font-size: 20px;
