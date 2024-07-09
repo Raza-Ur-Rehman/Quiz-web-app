@@ -15,14 +15,16 @@
     padding: 10px;
     height: 90%;
     border: 1px solid #c1bbbb;
-    
 }
 .main:first-child section {
-    border-radius: 10px 0px 0px 10px;
     gap: 20px;
 }
-.main:nth-child(2) section {
-    border-radius: 10px 10px 10px 10px;
+.box {
+    border-radius: 10px 0px 0px 10px;
+}
+.box2 {
+    /* border: 1px solid #c1bbbb; */
+    border-radius: 0px 10px 10px 0px;
 }
 .title {
     width: 60%;
