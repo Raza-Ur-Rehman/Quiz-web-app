@@ -157,7 +157,7 @@ label {
     outline: none;
     background: #fcc822;
     color: #ffffff;
-    width: 40%;
+    width: 60%;
     height: 50px;
     /* padding: 10px 30px; */
     font-size: 24px;
@@ -170,22 +170,7 @@ label {
     border: 2px solid #fcc822;
     color: #fcc822;
 }
-.login-btn {
-    border: 2px solid #fcc822;
-    outline: none;
-    background: transparent;
-    color: #fcc822;
-    width: 40%;
-    height: 50px;
-    font-size: 24px;
-    border-radius: 4px;
 
-}
-.login-btn:hover {
-    background: #fcc822;
-    border: none;
-    color: #ffffff;
-}
 .social-login-link {
     font-size: 20px;
     /* margin-top: 10px; */
