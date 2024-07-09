@@ -20,11 +20,11 @@
     gap: 20px;
 }
 .box {
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 0px 10px 10px 0px;
 }
 .box2 {
     /* border: 1px solid #c1bbbb; */
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 10px 0px 0px 10px;
 }
 .title {
     width: 60%;
@@ -202,8 +202,8 @@ label {
     font-size: 24px;
 }
 .signup-side-img {
-    width: 400px;
-    height: 560px;
+    width: 500px;
+    /* height: 660px; */
     object-fit: contain;
     /* margin-left: 100px; */
 }
