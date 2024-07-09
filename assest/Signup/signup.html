@@ -26,21 +26,21 @@
                     <form action="">
                         <div class="container input-box">
                             <span>User Name</span>
-                            <input type="text" placeholder="Enter your Name" id="username">
+                            <input type="text" placeholder="Jhon Deo" id="username">
                         </div>
                         <div class="container input-box">
                             <span>Email Address</span>
-                            <input type="email" placeholder="Enter your Email" id="useremail">
+                            <input type="email" placeholder="jhondeo@gmail.com" id="useremail">
                         </div>
                         <div class="container input-box">
                             <span>Password</span>
-                            <input type="password"  placeholder="Enter your Password" id="userpassword">
+                            <input type="password"  placeholder="Password" id="userpassword">
                         </div>
                         <div class="container input-box">
                             <span>Confirm Password</span>
-                            <input type="password"  placeholder="Enter your Password" id="confirmpassword">
+                            <input type="password"  placeholder="Confirm Password" id="confirmpassword">
                         </div>
-                        <div class="container bg-success d-flex justify-content-start input-box">
+                        <div class="container ">
                             <div>
                                 <input type="radio" id="male" name="gender" value="male" >
                                 <label for="male">Male</label>
@@ -50,9 +50,14 @@
                                 <label for="female">Female</label>
                             </div>
                         </div>
-                        <div class="container input-box">
-                            <span>Confirm Password</span>
-                            <input type="password"  placeholder="Enter your Password" id="confirmpassword">
+                        <div class="container">
+                            <div class='file'>
+                                <label for='profile-pic'>
+                                    <i class="fa-regular fa-image"></i>
+                                  Upload Picture
+                                </label>
+                                <input id='profile-pic' type='file' accept="image/*" />
+                              </div>
                         </div>
                         <div class="container d-flex align-items-center ">
                             <div class="container form-check d-flex align-items-center">
@@ -67,8 +72,9 @@
                         </div>
                     </form>
                 </div>
-                <div class="container d-flex justify-content-center"> 
+                <div class="container d-flex justify-content-evenly "> 
                     <button class="signup-btn">Signup</button>
+                    <button class="login-btn">Login</button>
                 </div>
                 <div class="container d-flex justify-content-evenly social-login-link">
                     <span>Or login with</span>
