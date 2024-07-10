@@ -84,9 +84,12 @@ header {
     background-color: #fcc822;
     color: #333333;
 }
-.account-pic {
+#account-pic {
     width: 200px;
-    
+    height: 200px;
+    object-fit: contain;
+    /* border-radius: 50%; */
+    border: 1px solid #fcc822;
 }
 
     /* hero section working  */
