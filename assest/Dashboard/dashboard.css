@@ -69,20 +69,31 @@ header {
     width: 10%;
     display: flex;
     justify-content: center;
-}
-.nav-btn button  {
     border: 1px solid #fcc822;
     border-radius: 2px;
+    background-color:#fcc822;
+}
+.nav-btn button  {
+    /* border: 1px solid #fcc822; */
+    /* border-radius: 2px; */
     outline: none;
     padding: 6px 26px;
-    background-color: transparent;
+    background-color:#fcc822;
     font-size: 20px;
     font-weight: 500;
-    color: #fcc822;
+    color: #ffffff;
+    border: none;
 }
 .nav-btn button:hover {
-    background-color: #fcc822;
     color: #333333;
+}
+#account-pic {
+    width: 100px;
+    height: 50px;
+    object-fit: contain;
+    border-radius: 50%;
+    border: 1px solid #E0E0E0;
+    background-color: #fcc822;
 }
 
     /* hero section working  */
