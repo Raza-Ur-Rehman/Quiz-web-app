@@ -90,7 +90,7 @@ header {
 #account-pic {
     width: 100px;
     height: 50px;
-    object-fit: contain;
+    object-fit: cover;
     border-radius: 50%;
     border: 1px solid #E0E0E0;
     background-color: #fcc822;
