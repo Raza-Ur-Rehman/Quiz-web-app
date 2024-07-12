@@ -95,7 +95,7 @@ label {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-  .file > input[type='file'] {
+  .file > input {
     display: none;
   }
   
@@ -109,7 +109,7 @@ label {
     border-radius: 4px;
     background-color: #ffffff ;
     color: #333333;
-   padding: 14px;
+    padding: 14px;
   }
   
   .file > label:hover {
@@ -170,7 +170,11 @@ label {
     border: 2px solid #fcc822;
     color: #fcc822;
 }
-
+.error {
+    color: red;
+    font-size: 18px;
+    
+}
 .social-login-link {
     font-size: 20px;
     /* margin-top: 10px; */
