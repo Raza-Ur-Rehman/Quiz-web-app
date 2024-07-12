@@ -28,23 +28,31 @@
             <div class="container ">
                 <form action="">
                     <div class="container input-box">
-                        <span>User Name</span>
-                        <input type="text" placeholder="Jhon Deo" id="signup-username">
+                        <div class="container">
+                            <span>User Name</span>
+                            <input type="text" placeholder="Jhon Deo" id="signup-username">
+                        </div>
                         <i class="fa-solid fa-triangle-exclamation error"></i>
                     </div>
                     <div class="container input-box">
-                        <span>Email Address</span>
+                        <div class="container">
+                            <span>Email Address</span>
                         <input type="email" placeholder="jhondeo@gmail.com" id="signupemail">
+                        </div>
                         <i class="fa-solid fa-triangle-exclamation error"></i>
                     </div>
                     <div class="container input-box">
-                        <span>Password</span>
+                        <div class="container">
+                            <span>Password</span>
                         <input type="password"  placeholder="Password" id="signup-password">
+                        </div>
                         <i class="fa-solid fa-triangle-exclamation error"></i>
                     </div>
                     <div class="container input-box">
+                       <div class="container">
                         <span>Confirm Password</span>
                         <input type="password"  placeholder="Confirm Password" id="confirmpassword">
+                       </div>
                         <i class="fa-solid fa-triangle-exclamation error"></i>
                     </div>
                     <div class="container ">
@@ -57,7 +65,7 @@
                             <label for="female">Female</label>
                         </div>
                     </div>
-                    <div class="container">
+                    <div class="container d-flex align-items-center justify-content-between">
                         <div class='file'>
                             <label for='profile-pic'>
                                 <i class="fa-regular fa-image"></i>
@@ -65,6 +73,7 @@
                             </label>
                             <input id='profile-pic' onchange='uploadImage();' type='file' accept="image/*" />
                           </div>
+                          <i class="fa-solid fa-triangle-exclamation error"></i>
                     </div>
                     <div class="container d-flex align-items-center ">
                         <div class="container form-check d-flex align-items-center">
