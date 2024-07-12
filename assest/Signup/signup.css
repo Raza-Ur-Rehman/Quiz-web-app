@@ -34,6 +34,8 @@
     /* padding: 6px 10px 6px 6px; */
     margin-bottom: 10px;
     /* border-radius: 4px; */
+    display: flex;
+    align-items: center;
 }
 .input-box:focus-within {
     border-left: 4px solid #fcc822;
@@ -173,7 +175,7 @@ label {
 .error {
     color: red;
     font-size: 18px;
-    
+
 }
 .social-login-link {
     font-size: 20px;
