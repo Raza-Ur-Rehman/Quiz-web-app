@@ -10,9 +10,9 @@ const [
     signupEmail,
     signupPassword,
     signupConfirmPassword,
-    signUpMale,
-    signUpFemale,
-    signUpPicture,
+    signupMale,
+    signupFemale,
+    profilePic,
   ] = signUpFormFields;
   let imageUrl;
   
