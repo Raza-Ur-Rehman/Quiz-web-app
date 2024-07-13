@@ -20,9 +20,15 @@ const [
     if (signupUsername.value.trim() === "" ||
     signupEmail.value.trim() === "" ||
     signupPassword.value.trim() === "" ||
-    signupConfirmPassword.value.trim() === "") {
-        
+    signupConfirmPassword.value.trim() === "") {   
         error.innerHTML = `<i class="fa-solid fa-circle-exclamation error"><span class="error">  Invalid Input(s)</span></i>`
+    }
+    else {
+        error.innerHTML = ""
+        if ( emailRegex.test(signupEmail.value) &&
+        passwordRegex.test(signupPassword.value)){
+            
+        }
     }
   }
 // const login = ()=> {
