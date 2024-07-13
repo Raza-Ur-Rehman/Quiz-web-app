@@ -6,16 +6,24 @@ let error = document.getElementById("error");
 let signUpFormFields = document.querySelectorAll("form input");
 
 const [
-    signUpName,
-    signUpEmail,
-    signUpPass,
-    confirmSignUpPass,
+    signupUsername,
+    signupEmail,
+    signupPassword,
+    signupConfirmPassword,
     signUpMale,
     signUpFemale,
     signUpPicture,
   ] = signUpFormFields;
   let imageUrl;
   
+  const signUp = ()=> {
+    if (signupUsername.value.trim() === "" ||
+    signupEmail.value.trim() === "" ||
+    signupPassword.value.trim() === "" ||
+    signupConfirmPassword.value.trim() === "") {
+        
+    }
+  }
 // const login = ()=> {
 
     
