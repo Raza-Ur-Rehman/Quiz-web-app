@@ -175,7 +175,6 @@ label {
 .error {
     color: red;
     font-size: 18px;
-    visibility: hidden;
 }
 
 .social-login-link {
