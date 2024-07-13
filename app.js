@@ -22,7 +22,7 @@ const [
     signupPassword.value.trim() === "" ||
     signupConfirmPassword.value.trim() === "") {
         
-        error.style.visibility = "visible" ;
+        error.innerText = "Invalid Input(s)";
     }
   }
 // const login = ()=> {
