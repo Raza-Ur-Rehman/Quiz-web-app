@@ -2,8 +2,8 @@ let emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 let passwordRegex = /^(?=.*\d)(?=.*[a-z])(?=.*[a-zA-Z]).{8,}$/;
 
 let loader = document.querySelector(".loading");
-let error = document.getElementById("error");
-let signUpFormFields = document.querySelectorAll("form input");
+let error = document.querySelector(".error");
+let signUpFormFields = document.querySelectorAll(".container input");
 
 const [
     signupUsername,
@@ -22,6 +22,7 @@ const [
     signupPassword.value.trim() === "" ||
     signupConfirmPassword.value.trim() === "") {
         
+        error.style.visibility = "visible" ;
     }
   }
 // const login = ()=> {
