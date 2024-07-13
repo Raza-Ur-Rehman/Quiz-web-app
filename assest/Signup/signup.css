@@ -198,5 +198,34 @@ label {
     object-fit: contain;
     /* margin-left: 100px; */
 }
+.loading {
+    background: #c1bbbb;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+.loading-bar {
+    position: relative;
+    width: 200px;
+    height: 200px;
+
+}
+.loading-bar div {
+    position: absolute;
+    display: block;
+    height: 40%;
+    width: 40%;
+    border-radius: 50%;
+    animation: speed 2s infinite ease-in-out;
+}
+
+
+
+
+
+
+
+
 
 
