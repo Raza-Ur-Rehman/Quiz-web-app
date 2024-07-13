@@ -21,7 +21,7 @@ const [
     signupEmail.value.trim() === "" ||
     signupPassword.value.trim() === "" ||
     signupConfirmPassword.value.trim() === "") {   
-        error.innerHTML = `<i class="fa-solid fa-circle-exclamation error"><span class="error">  Invalid Input(s)</span></i>`
+        error.innerText = "Invalid Input(s)*"
     }
     else {
         error.innerHTML = ""
@@ -42,11 +42,11 @@ const [
                 },2000)
             }
             else {
-                error.innerText = "Password Do Not Match "
+                error.innerText = "Password Do Not Match *"
             }
         }
         else {
-            error.innerText = "Invalid Email OR Password"
+            error.innerText = "Invalid Email OR Password *"
         }
     }
   };
