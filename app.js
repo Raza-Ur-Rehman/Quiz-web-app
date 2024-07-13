@@ -28,11 +28,28 @@ const [
         if ( emailRegex.test(signupEmail.value) &&
         passwordRegex.test(signupPassword.value)){
             if (signupPassword.value === signupConfirmPassword.value) {
-                
+                loader.classList.add("d-grid");
+                let obj = {
+                    signupUsername: signupUsername.value,
+                    signupEmail : signupEmail.value,
+                    signupPassword: signupPassword.value,
+                    profilePic: imageUrl, 
+                };
+                localStorage.setItem("userData",JSON.stringify(obj))
+                setTimeout(() =>{
+                    loader.classList.remove("d-grid")
+                    window.location.href = "../Login/login.html"
+                },2000)
+            }
+            else {
+                error.innerText = "Password Do Not Match "
             }
         }
+        else {
+            error.innerText = "Invalid Email OR Password"
+        }
     }
-  }
+  };
 // const login = ()=> {
 
     
