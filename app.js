@@ -22,7 +22,7 @@ const [
     signupPassword.value.trim() === "" ||
     signupConfirmPassword.value.trim() === "") {
         
-        error.innerText = "Invalid Input(s)";
+        error.innerText = `<i class="fa-solid fa-triangle-exclamation "></i>Invalid Input(s)`;
     }
   }
 // const login = ()=> {
