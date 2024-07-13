@@ -3,7 +3,7 @@ let passwordRegex = /^(?=.*\d)(?=.*[a-z])(?=.*[a-zA-Z]).{8,}$/;
 
 let loader = document.querySelector(".loading");
 let error = document.querySelector(".error");
-let signUpFormFields = document.querySelectorAll(".container input");
+let signUpFormFields = document.querySelectorAll("form input");
 
 const [
     signupUsername,
@@ -27,7 +27,9 @@ const [
         error.innerHTML = ""
         if ( emailRegex.test(signupEmail.value) &&
         passwordRegex.test(signupPassword.value)){
-            
+            if (signupPassword.value === signupConfirmPassword.value) {
+                
+            }
         }
     }
   }
