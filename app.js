@@ -1,5 +1,21 @@
-const formfield = document.querySelector();
+let emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+let passwordRegex = /^(?=.*\d)(?=.*[a-z])(?=.*[a-zA-Z]).{8,}$/;
 
+let loader = document.querySelector(".loading");
+let error = document.getElementById("error");
+let signUpFormFields = document.querySelectorAll("form input");
+
+const [
+    signUpName,
+    signUpEmail,
+    signUpPass,
+    confirmSignUpPass,
+    signUpMale,
+    signUpFemale,
+    signUpPicture,
+  ] = signUpFormFields;
+  let imageUrl;
+  
 // const login = ()=> {
 
     
