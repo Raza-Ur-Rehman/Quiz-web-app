@@ -15,11 +15,35 @@
 
 <body>
     <div class="main">
+                <!-- side bar  -->
+<header class="sidebar">
+    <div class="close-icon" onclick="closeModal();">
+        <i class="fa-solid fa-xmark "></i>
+    </div>
+    <div class="d-flex align-items-center flex-column side-box">
+        <div class="container d-flex justify-content-center sidebar-logo bg-white ">
+            <img src="../Image/QuizGrad.png" alt="">
+        </div>
+        <div class="side-nav ">  
+            <ul class="list">
+                <li>How it Work?</li>
+                <li>Features</li>
+                <li>About us</li>
+            </ul>
+        </div>
+    </div>
+</header>  
+        <!-- nav bar  -->
         <header>
             <div class="container-fluid h-100 d-flex align-items-center">
+                <div class="side-bar" onclick="openModal();">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
                 <div class="logo-box">
                     <img src="../Image/QuizGrad.png" alt="">
+                    
                 </div>
+                
                 <div class="nav-list d-flex  justify-content-end">
                     <ul class="d-flex ">
                         <li>How it Work?</li>
@@ -27,10 +51,13 @@
                         <li>About us</li>
                     </ul>
                 </div>
-                <div class="nav-btn">
-                    <img src="../Image/profile-user-icon-.jpg" alt="img"  id="account-pic"/>
-                    <button id="login-btn" onclick="login();">Login</button>
-                </div>
+                <div class="dropdown nav-btn d-flex justify-content-evenly align-items-center">
+                    <img src="" id="account-pic" class="btn btn-secondary dropdown-toggle " data-bs-toggle="dropdown" aria-expanded="false"  width="50px" height="50px"  alt="">
+                    <span id="account-name"></span>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                      <button class="dropdown-item" onclick="logout();">Logout <i class="fa-solid fa-arrow-right"></i></button>
+                    </ul>
+                  </div>
 
             </div>
         </header>
@@ -70,6 +97,7 @@
 
 
     <script src="../../app.js"></script>
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
