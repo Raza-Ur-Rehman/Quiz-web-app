@@ -16,6 +16,13 @@ body {
 .main {
     width: 100%;
     height: 100%;
+    overflow: hidden;
+
+}
+/* side bar work  */
+.sidebar {
+    /* height: 100vh; */
+    background-color: #fcc822;
 
 }
 /*      nav-bar work  */
@@ -31,8 +38,12 @@ header {
     /* background-color: aqua; */
     border-bottom: 1px solid #E0E0E0;
     padding: 40px 0px;
+    
 }
-
+.side-bar i {
+    font-size: 30px;
+    display: none ;
+}
 .logo-box {
     /* background-color: blue; */
     width: 15%;
@@ -70,7 +81,7 @@ header {
     display: flex;
     justify-content: center;
 }
-.nav-btn button  {
+.nav-btn a  {
     border: 1px solid #fcc822;
     border-radius: 2px;
     outline: none;
@@ -79,8 +90,9 @@ header {
     font-size: 20px;
     font-weight: 500;
     color: #fcc822;
+    text-decoration: none;
 }
-.nav-btn button:hover {
+.nav-btn a:hover {
     background-color: #fcc822;
     color: #333333;
 }
@@ -121,7 +133,12 @@ header {
     background-color: #fcc822;
     color: #ffffff ;
     padding: 10px 30px;
+    border: 1px solid #fcc822;
     
+}
+.start-btn a:hover {
+    background: transparent;
+    color: #fcc822;
 }
 .know-link a {
     color: #fcc822 !important; 
@@ -132,8 +149,25 @@ header {
     height: 530px;
 }
 
+@media (max-width: 760px) {
+    .main {
+        overflow: scroll;
+    }
+    .container-fluid  {
+        /* justify-content: space-evenly !important; */
+        justify-content: space-between !important;
+    }
+    .nav-list ul li {
+        display: none;
+    }
+    .logo-box {
+       
+}
+.side-bar i {
+    display: block;
+}
 
-
+}
 
 
 
