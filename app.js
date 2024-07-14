@@ -102,7 +102,13 @@ const login = () => {
 }
 
 
-
+let sideBar = document.querySelector('.sidebar');
+function openModal() {
+    sideBar.style.display = "flex";
+}
+function closeModal() {
+    sideBar.style.display = "none";
+}
 
 
 
