@@ -13,12 +13,12 @@
 }
 .main section {
     padding: 10px;
-    height: 90vh;
+    height: 80vh;
     padding: 20px;
-    width: 50%;
+    width: 40%;
 }
 .main:first-child section {
-    gap: 40px;
+    gap: 50px;
 }
 .title {
     width: 60%;
@@ -66,7 +66,7 @@ form input::placeholder {
     color: #fcc822;
     text-decoration: underline;
 }
-.error {
+.login-error {
     color: red;
     font-size: 18px;
 }
@@ -143,10 +143,10 @@ form input::placeholder {
     /* margin-left: 100px; */
 }
 @media (max-width: 800px) {
-    .main {
+    /* .main {
            display: block !important;
            overflow: hidden;
-    }
+    } */
        .box2,
        .signup-side-img {
            width: 0% !important;
@@ -154,7 +154,7 @@ form input::placeholder {
        }
        .box{    
            width: 100% !important;
-           height: 100% !important;
+           /* height: 90% !important; */
        }
    }
 
