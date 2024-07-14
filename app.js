@@ -42,20 +42,20 @@ const [
                 setTimeout(() =>{
                     loader.classList.remove("d-grid")
                     window.location.href = "../Login/login.html"
-                },2000)
+                },3000)
             }
             else {
                 error.innerText = "Password Do Not Match *"
                 setTimeout(() => {
                     error.innerText = ""
-                }, 2000);
+                }, 3000);
             }
         }
         else {
             error.innerText = "Invalid Email OR Password *"
             setTimeout(() => {
                 error.innerText = ""
-            }, 2000);
+            }, 3000);
         }
     }
 };
@@ -67,17 +67,17 @@ const uploadImage = () => {
     }
     readFile.readAsDataURL(img)
 };
-let eyeIcon = document.querySelector('eye-icon');
-let isOpen = false;
-function showMenu() {
-    isOpen = !isOpen;
-    if (isOpen) {
-        signupPassword.style.type = "text"
-    }
-    else {
-        menu.style.height = '0px';
-    }
-}
+// let eyeIcon = document.querySelector('eye-icon');
+// let isOpen = false;
+// function showMenu() {
+//     isOpen = !isOpen;
+//     if (isOpen) {
+//         signupPassword.style.type = "text"
+//     }
+//     else {
+//         menu.style.height = '0px';
+//     }
+// }
 
 // const login = ()=> {
 
