@@ -17,6 +17,7 @@ const [
   let imageUrl;
   
   const signUp = ()=> {
+    event.preventDefault();
     if (signupUsername.value.trim() === "" ||
     signupEmail.value.trim() === "" ||
     signupPassword.value.trim() === "" ||
@@ -67,6 +68,22 @@ const uploadImage = () => {
     }
     readFile.readAsDataURL(img)
 };
+
+const loginError = document.getElementById("login-error")
+let loginFormFields = document.querySelectorAll(".input-box input");
+const [loginEmail, loginPassword] = loginFormFields;
+
+let getData = JSON.parse(localStorage.getItem("userData"))
+
+
+
+
+
+
+
+
+
+
 // let eyeIcon = document.querySelector('eye-icon');
 // let isOpen = false;
 // function showMenu() {
