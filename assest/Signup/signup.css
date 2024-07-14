@@ -217,8 +217,8 @@ label {
 .loading {
     background: #ffffff;
     height: 100vh;
-    /* width: 100%; */
-    place-items: center;
+    justify-content: center;
+    align-items: center;
     display: none;
 }
 
@@ -281,12 +281,7 @@ label {
 }
 
 
-
-
-
-
-
-
+/* responsive */
 @media (max-width: 700px) {
  .main {
         display: block !important;
@@ -304,17 +299,3 @@ label {
 }
 
 
-/* @media ( min-width: 700px) {
-    .box2 {
-       width: 0%;
-       
-}
-.box {
-    width: 100%;
-}
-/* .signup-side-img {
-    display: none;
-} */
-}
-
-*/
