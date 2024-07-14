@@ -15,17 +15,10 @@
     padding: 10px;
     height: 90vh;
     padding: 20px;
+    width: 50%;
 }
 .main:first-child section {
-    border: 1px solid #c1bbbb;
     gap: 40px;
-}
-.box {
-    background-color: #ffffff;
-    border-radius: 10px 0px 0px 10px;
-}
-.box2 {
-    border-radius: 0px 10px 10px 0px;
 }
 .title {
     width: 60%;
@@ -149,5 +142,19 @@ form input::placeholder {
     object-fit: contain;
     /* margin-left: 100px; */
 }
-
+@media (max-width: 800px) {
+    .main {
+           display: block !important;
+           overflow: hidden;
+    }
+       .box2,
+       .signup-side-img {
+           width: 0% !important;
+           height: 0% !important;
+       }
+       .box{    
+           width: 100% !important;
+           height: 100% !important;
+       }
+   }
 
