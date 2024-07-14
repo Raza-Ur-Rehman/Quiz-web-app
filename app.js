@@ -22,6 +22,9 @@ const [
     signupPassword.value.trim() === "" ||
     signupConfirmPassword.value.trim() === "") {   
         error.innerText = "Invalid Input(s)*"
+        setTimeout(() => {
+            error.innerText = ""
+        }, 2000);
     }
     else {
         error.innerHTML = ""
@@ -43,10 +46,16 @@ const [
             }
             else {
                 error.innerText = "Password Do Not Match *"
+                setTimeout(() => {
+                    error.innerText = ""
+                }, 2000);
             }
         }
         else {
             error.innerText = "Invalid Email OR Password *"
+            setTimeout(() => {
+                error.innerText = ""
+            }, 2000);
         }
     }
 };
@@ -58,6 +67,17 @@ const uploadImage = () => {
     }
     readFile.readAsDataURL(img)
 };
+let eyeIcon = document.querySelector('eye-icon');
+let isOpen = false;
+function showMenu() {
+    isOpen = !isOpen;
+    if (isOpen) {
+        signupPassword.style.type = "text"
+    }
+    else {
+        menu.style.height = '0px';
+    }
+}
 
 // const login = ()=> {
 
