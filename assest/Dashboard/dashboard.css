@@ -16,10 +16,53 @@ body {
 .main {
     width: 100%;
     height: 100%;
-
+    overflow: hidden;
 }
-/*      nav-bar work  */
+/* side bar work  */
+.sidebar {
+    height: 100%;
+    width: 100%;
+    display: none;
+    justify-content: center;
+    background-color: #fcc822;
+}
+.side-box {
+    padding: 60px 0px;
+    
+}
+.side-nav {
+    padding: 20px 0px;
+}
+.sidebar-logo {
+    padding: 10px 20px;
+    border-radius: 20px;
+}
 
+.list li {
+    list-style: none;
+    font-size: 20px;
+    /* color: #ffffff; */
+    color: #000;
+    /* margin-right: 40px; */
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.list li:hover {
+    background: #f7f1e3;
+    padding: 0px 12px;
+    border-radius: 18px;
+}
+.close-icon i {
+    position: relative;
+    top: 20px;
+    left: 270px;
+    font-size: 30px;
+    cursor: pointer;
+    /* background-color: #333; */
+}
+
+/*      nav-bar work  */
 header {
     width: 100%;
     height: 10%;
@@ -31,6 +74,12 @@ header {
     /* background-color: aqua; */
     border-bottom: 1px solid #E0E0E0;
     padding: 40px 0px;
+
+}
+
+.side-bar i {
+    font-size: 30px;
+    display: none;
 }
 
 .logo-box {
@@ -39,6 +88,8 @@ header {
     display: flex;
     justify-content: center;
     cursor: pointer;
+    border-radius: 20px;
+    padding: 6px;
 }
 
 .logo-box img {
@@ -61,40 +112,40 @@ header {
     margin-top: 14px;
     cursor: pointer;
 }
+
 .nav-list ul li:hover {
-    border-bottom: 1px solid #fcc822 ;
+    border-bottom: 1px solid #fcc822;
     transition: 0.5s ease-in-out;
 }
+
 .nav-btn {
-    width: 10%;
+    width: 6%;
     display: flex;
     justify-content: center;
-    border: 1px solid #fcc822;
-    border-radius: 2px;
-    background-color:#fcc822;
-}
-.nav-btn button  {
-    /* border: 1px solid #fcc822; */
-    /* border-radius: 2px; */
-    outline: none;
-    padding: 6px 26px;
-    background-color:#fcc822;
-    font-size: 20px;
-    font-weight: 500;
-    color: #ffffff;
-    border: none;
-}
-.nav-btn button:hover {
-    color: #333333;
+    border-radius: 10px;
+    background: #fcc822 ;
+    cursor: pointer;
+    padding: 4px;
+
 }
 #account-pic {
-    width: 100px;
-    height: 50px;
-    object-fit: cover;
     border-radius: 50%;
-    border: 1px solid #E0E0E0;
-    background-color: #fcc822;
+    padding: 2px;
+    border: 1px solid #333333;
+    object-fit: cover;
 }
+#account-name {
+    font-size: 28px;
+    text-transform: capitalize;
+
+
+}
+.btn {
+    background: #fcc822 !important;
+    border: none !important;
+    color:#333333 !important;
+}
+
 
     /* hero section working  */
 
@@ -142,7 +193,42 @@ header {
     height: 530px;
 }
 
+@media (max-width: 760px) {
+    .main {
+        overflow-y: scroll;
+    }
+    .nav-list ul li {
+        display: none;
+    }
 
+    .logo-box {
+        position: relative;
+        left: 130px;
+    }
+
+    .title h1 {
+        font-size: 40px;
+    }
+    .side-bar i {
+        display: block;
+    }
+    .nav-btn {
+        background: transparent !important;
+        position: relative;
+        right: 30px;
+    }
+    #account-name {
+        display: none;
+    }
+    #account-pic {
+        width: 60px;
+        height: 60px;
+        
+    }
+
+    
+
+}
 
 
 
