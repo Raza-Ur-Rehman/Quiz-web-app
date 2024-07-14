@@ -18,20 +18,12 @@
     padding: 10px;
     height: 90vh;
     /* border: 1px solid #c1bbbb; */
+    width: 50%;
 }
 
 .main:first-child section {
     gap: 20px;
 }
-
-/* .box {
-    border-radius: 0px 10px 10px 0px;
-} */
-
-/* .box2 { */
-    /* border: 1px solid #c1bbbb; */
-    /* border-radius: 10px 0px 0px 10px; */
-
 
 .title {
     width: 60%;
@@ -303,13 +295,13 @@ label {
 
 
 
-@media (max-width: 600px) {
-    .box2 ,.signup-side-img {
-        display: none !important;
-        grid-column: 0;
+@media ( max-width: 700px) {
+    .box2 {
+       width: 0%;
+       
 }
 .box {
-    
+    width: 100%;
 }
 /* .signup-side-img {
     display: none;
