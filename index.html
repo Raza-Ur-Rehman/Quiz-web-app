@@ -15,18 +15,28 @@
 
 <body>
     <div class="main">
+        <!-- side bar  -->
 <header class="sidebar">
-    <div class="side-nav ">
-        <ul class="d-flex justify-content-center">
-            <li>How it Work?</li>
-            <li>Features</li>
-            <li>About us</li>
-        </ul>
+    <div class="close-icon" onclick="closeModal();">
+        <i class="fa-solid fa-xmark "></i>
     </div>
-</header>            
+    <div class="d-flex align-items-center flex-column side-box">
+        <div class="container d-flex justify-content-center sidebar-logo bg-white ">
+            <img src="assest/Image/QuizGrad.png" alt="">
+        </div>
+        <div class="side-nav ">  
+            <ul class="list">
+                <li>How it Work?</li>
+                <li>Features</li>
+                <li>About us</li>
+            </ul>
+        </div>
+    </div>
+</header>     
+<!-- nav bar         -->
         <header>
             <div class="container-fluid h-100 d-flex align-items-center">
-                <div class="side-bar">
+                <div class="side-bar" onclick="openModal();">
                     <i class="fa-solid fa-bars"></i>
                 </div>
                 <div class="logo-box">
@@ -48,9 +58,10 @@
 
             </div>
         </header>
+        <!-- hero section  -->
         <section class="hero-sec d-flex justify-content-center align-items-center">
             <div class="container row h-100 d-flex align-items-center gap-3">
-                <div class="col h-75">
+                <div class=" col h-75">
                     <div class="container title-box d-flex flex-column h-100 ">
                         <div class="title">
                             <h1>Learn <br> new concepts <br> for each question</h1>
@@ -72,7 +83,7 @@
                     </div>
 
                 </div>
-                <div class="image-box col h-75 ">
+                <div class="image-box col  ">
                     <div class="container h-100 d-flex justify-content-center">
                         <img class="hero-img" src="assest/Image/Group 118.png" alt="">
                     </div>
