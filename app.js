@@ -49,7 +49,16 @@ const [
             error.innerText = "Invalid Email OR Password *"
         }
     }
-  };
+};
+const uploadImage = () => {
+    let img = profilePic.files[0];
+    let readFile = new FileReader();
+    readFile.onload = () => {
+        imageUrl = readFile.result;
+    }
+    readFile.readAsDataURL(img)
+};
+
 // const login = ()=> {
 
     
@@ -61,14 +70,6 @@ const [
 // let showImage = document.getElementById('account-pic');
 
 
-// const uploadImage = () => {
-//     let img = image.files[0];
-//     let readFile = new FileReader();
-//     readFile.onload = () => {
-//         showImage.src = readFile.result;
-//     }
-//     readFile.readAsDataURL(img)
-// }
 
 
 
