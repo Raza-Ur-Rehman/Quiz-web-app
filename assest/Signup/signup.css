@@ -16,13 +16,8 @@
 
 .main section {
     padding: 10px;
-    height: 90vh;
-    /* border: 1px solid #c1bbbb; */
+    height: 100%;
     width: 50%;
-}
-
-.main:first-child section {
-    gap: 20px;
 }
 
 .title {
@@ -292,10 +287,24 @@ label {
 
 
 
+@media (max-width: 700px) {
+ .main {
+        display: block !important;
+        overflow: hidden;
+ }
+    .box2,
+    .signup-side-img {
+        width: 0% !important;
+        height: 0% !important;
+    }
+    .box{    
+        width: 100% !important;
+        height: 100% !important;
+    }
+}
 
 
-
-@media ( max-width: 700px) {
+/* @media ( min-width: 700px) {
     .box2 {
        width: 0%;
        
@@ -307,3 +316,5 @@ label {
     display: none;
 } */
 }
+
+*/
