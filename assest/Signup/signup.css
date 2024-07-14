@@ -99,9 +99,10 @@ label {
 }
   .file > input {
     display: none;
-  }
-  
-  .file > label {
+    appearance: none;
+}
+
+.file > label {
     font-size: 16px;
     font-weight: 400;
     cursor: pointer;
@@ -112,7 +113,7 @@ label {
     background-color: #ffffff ;
     color: #333333;
     padding: 14px;
-  }
+}
   
   .file > label:hover {
     border-color: #fcc822;
@@ -199,7 +200,7 @@ label {
     /* margin-left: 100px; */
 }
 .loading {
-    background: #c1bbbb;
+    background: #ffffff;
     height: 100vh;
     /* width: 100%; */
     place-items: center;
@@ -215,8 +216,8 @@ label {
     position: absolute;
     border: none;
     display: block;
-    height: 30%;
-    width: 30%;
+    height: 20%;
+    width: 20%;
     border-radius: 50%;
     animation: speed 2s infinite ease-in-out;
 }
