@@ -75,7 +75,31 @@ const [loginEmail, loginPassword] = loginFormFields;
 
 let getData = JSON.parse(localStorage.getItem("userData"))
 
-
+const login = () => {
+    event.preventDefault();
+    if (loginEmail.value !== "" && loginPassword.value !== "") {
+        loginError.innerText = "";
+        if(getData.signupEmail === loginEmail.value){
+            loginError.innerText = "";
+            if(getData.signupPassword === loginPassword.value){
+                loginError.innerText = "";
+                loader.classList.add("d-grid");
+            setTimeout(() =>{
+                    loader.classList.remove("d-grid")
+                    window.location.href = "../Dashboard/dashboard.html"
+                },3000)
+            }
+            else{
+                loginError.innerText = "Invalid Password !";
+            }
+        }
+        else {
+            loginError.innerText = "Invalid Email !";
+        }
+    }else {
+        loginError.innerText = "Enter Email & Password !";
+    }
+}
 
 
 
