@@ -13,7 +13,8 @@
 }
 .main section {
     padding: 10px;
-    height: 80%;
+    height: 90vh;
+    padding: 20px;
 }
 .main:first-child section {
     border: 1px solid #c1bbbb;
@@ -72,7 +73,11 @@ form input::placeholder {
     color: #fcc822;
     text-decoration: underline;
 }
-.checkbox {
+.error {
+    color: red;
+    font-size: 18px;
+}
+/* .checkbox {
     accent-color: #fcc822 !important;
     width: 20px !important;
     height: 20px !important;
@@ -87,7 +92,7 @@ form input::placeholder {
 .form-check-label {
     font-size: 18px !important;
     margin-left: 6px;
-}
+} */
 .login-btn {
     border: none;
     outline: none;
