@@ -175,6 +175,7 @@ header {
 }
 
 .hero-sec-btn {
+    display: flex;
     font-size: 16px;
     padding: 30px 0px 0px 0px;
 }
@@ -207,7 +208,7 @@ header {
     height: 530px;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 668px) {
     .main {
         overflow-y: scroll;
     }
@@ -217,16 +218,30 @@ header {
 
     .logo-box {
         position: relative;
-        left: 130px;
+        left: 50px;
     }
 
     .title h1 {
         font-size: 40px;
+        margin-top: 20px;
     }
     .side-bar i {
         display: block;
     }
-    
+    .hero-sec-btn {
+        display: block ;
+        
+    }
+    .start-btn {
+        margin-bottom: 20px;
+    }
+    .nav-btn {
+        width: 6%;
+        padding: 10px;
+    }
+    .nav-btn a { 
+        padding: 6px 20px;
+    }
 
     
 
