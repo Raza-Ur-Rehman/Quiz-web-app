@@ -305,7 +305,10 @@ header {
     .start-btn {
         margin-bottom: 20px;
     }
-
+    .hero-img {
+        width: 400px;
+    height: 400px;
+    }
     
 
 }
