@@ -56,7 +56,7 @@ body {
 .close-icon i {
     position: relative;
     top: 20px;
-    left: 270px;
+    left: 200px;
     font-size: 30px;
     cursor: pointer;
     /* background-color: #333; */
@@ -95,6 +95,7 @@ header {
 .logo-box img {
     width: 130px;
     height: 30px;
+    object-fit: contain;
 }
 
 .nav-list {
@@ -118,7 +119,7 @@ header {
     transition: 0.5s ease-in-out;
 }
 
-.nav-btn {
+/* .nav-btn {
     width: 6%;
     display: flex;
     justify-content: center;
@@ -127,7 +128,7 @@ header {
     cursor: pointer;
     padding: 4px;
 
-}
+} */
 #account-pic {
     border-radius: 50%;
     padding: 2px;
@@ -135,7 +136,7 @@ header {
     object-fit: cover;
 }
 #account-name {
-    font-size: 28px;
+    font-size: 24px;
     text-transform: capitalize;
 
 
@@ -171,6 +172,7 @@ header {
     font-size: 18px;
 }
 .hero-sec-btn {
+    display: flex;
     font-size: 16px;
     padding: 30px 0px 0px 0px;
 }
@@ -268,14 +270,20 @@ header {
 
     .logo-box {
         position: relative;
-        left: 130px;
+        left: 50px;
+        width: 5%;
     }
-
+    .logo-box img {
+        width: 100px;
+        height: 30px;
+        object-fit: contain;
+    }
     .title h1 {
         font-size: 40px;
     }
     .side-bar i {
         display: block;
+        font-size: 24px;
     }
     .nav-btn {
         background: transparent !important;
@@ -286,9 +294,16 @@ header {
         display: none;
     }
     #account-pic {
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
         
+    }
+    .hero-sec-btn {
+        display: block ;
+        
+    }
+    .start-btn {
+        margin-bottom: 20px;
     }
 
     
