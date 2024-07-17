@@ -122,9 +122,9 @@ showData();
 // logout 
 const logout = () => {
     document.body.style.overflow = "hidden";
-    // loader.classList.add("d-flex");
+    loader.classList.add("d-flex");
     setTimeout(() => {
-        // loader.classList.remove("d-flex");
+        loader.classList.remove("d-flex");
         window.location.href = "../../index.html";
     }, 2000);
     localStorage.clear();
