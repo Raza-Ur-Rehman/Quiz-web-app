@@ -139,16 +139,17 @@ function closeModal() {
 }
 
 let eyeIcon = document.querySelector('#eye-icon');
-let password = document.querySelectorAll('.password');
+let password = document.querySelector('.password');
 
-let isOpen = false;
-function showMenu() {
+function showHide() {
+  let isOpen = false;
     isOpen = !isOpen;
-    if (isOpen) {
-        password.style.type = "text"
+    if (!isOpen) {
+        password.atrr("type", "text")
+        eyeIcon.innerHTML = '<i class="fa-solid fa-eye"></i>'
     }
     else {
-        password.style.type = "password"
+      password.atrr("type", "password")
     }
 }
 
