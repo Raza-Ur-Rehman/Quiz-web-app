@@ -138,17 +138,19 @@ function closeModal() {
   sideBar.style.display = "none";
 }
 
-// let eyeIcon = document.querySelector('eye-icon');
-// let isOpen = false;
-// function showMenu() {
-//     isOpen = !isOpen;
-//     if (isOpen) {
-//         signupPassword.style.type = "text"
-//     }
-//     else {
-//         menu.style.height = '0px';
-//     }
-// }
+let eyeIcon = document.querySelector('#eye-icon');
+let password = document.querySelectorAll('.password');
+
+let isOpen = false;
+function showMenu() {
+    isOpen = !isOpen;
+    if (isOpen) {
+        password.style.type = "text"
+    }
+    else {
+        password.style.type = "password"
+    }
+}
 
 // const login = ()=> {
 
