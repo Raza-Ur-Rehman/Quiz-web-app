@@ -9,7 +9,7 @@
 } 
 .main {
     height: 100vh;
-    /* padding: 10px ; */
+    overflow: hidden;
 }
 .main section {
     padding: 10px;
@@ -223,10 +223,10 @@ form input::placeholder {
 
 /* responsive */
 @media (max-width: 800px) {
-    /* .main {
+    .main {
            display: block !important;
-           overflow: hidden;
-    } */
+           overflow-y: hidden;
+    }
        .box2,
        .signup-side-img {
            width: 0% !important;
@@ -235,6 +235,12 @@ form input::placeholder {
        .box{    
            width: 100% !important;
            /* height: 90% !important; */
+       }
+       .social-login-link {
+        flex-direction: column;
+       }
+       .social-text {
+        text-align: center;
        }
    }
 
