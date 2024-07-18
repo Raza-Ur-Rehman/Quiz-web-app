@@ -130,7 +130,7 @@ const logout = () => {
     localStorage.clear();
   };
 //   side bar function
-let sideBar = document.querySelector(".sidebar");
+let sideBar = document.querySelectorAll(".sidebar");
 function openModal() {
   sideBar.style.display = "flex";
 }
